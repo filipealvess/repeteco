@@ -35,6 +35,7 @@
     border: 0;
     outline: 0;
     font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
     text-decoration: none;
     box-sizing: border-box;
   }
