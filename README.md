@@ -1,5 +1,5 @@
 # Repeteco
-Aplicação de página única (SPA) com listagem dos melhores momentos das partidas de futebol mais recentes.
+Aplicação de página única (SPA) com listagem dos melhores momentos das partidas de futebol mais recentes, obtidos através da API do [ScoreBat](https://www.scorebat.com/video-api/).
 
 Para testar a aplicação, [clique aqui](https://repeteco.vercel.app).
 
