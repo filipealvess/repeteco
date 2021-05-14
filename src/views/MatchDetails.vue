@@ -57,11 +57,13 @@
     },
     computed: {
       videos() {
+        const videos = this.match.videos;
         const maxVideos = 4;
-        return this.match.videos.slice(0, maxVideos);
+        return videos ? videos.slice(0, maxVideos) : [];
       },
       matchTitle() {
-        return this.match.title.replace('-', 'VS');
+        const title = this.match.title;
+        return title ? title.replace('-', 'VS') : '';
       }
     },
     created() {
